@@ -9,35 +9,33 @@
 </head>
 <body>	
 <center>
-<h1>Squelette du jeu 2020</h1>
+<h1>Squelette du jeu 2021</h1>
 </center>
 <div id="conteneur" class="center">
 	<div id="contenu">
 		<div id="content" >	
             <div id="commande_top" class="commandes">
                 <input type="button" id="bt3" value="RàZ" onClick="choixRaz();"/>
-                <input type="button" id="bt2" value="Sauver" onClick="choixSave();"/>
                 <input type="button" id="bt1" value="Auto" onClick="depart(this)"/>
                 <select name="config" id="config-select" onchange="chargement_();">
                 </select>
             </div>
             <div id="canv">                                     
-                <canvas id="canvas" width="440px" height="440px"></canvas>
+                <canvas id="canvas" width="1000px" height="1000px"></canvas>
             </div>
             <div id="commande_bottom" class="commandes">
-                <input type="button" id="btRecule" value="<<" onClick="deplace('recule');"/>
                 <input type="button" id="btHelp" value="?" onClick="choixRaz();"/>
             </div>
         </div>
     </div>		
 </div>
-<script src='./scripts/config.js'></script> 
-<script src='./scripts/comportement.js'></script> 
 <div id='descriptif' class="center_texte">
     <p>
         Conditions
     </p>
  </div>
+<script src='./scripts/config.js'></script> 
+<script src='./scripts/comportement.js'></script> 
 
 <div id="piedpage">
 </div>
